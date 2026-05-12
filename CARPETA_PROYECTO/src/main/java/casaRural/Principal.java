@@ -1,6 +1,9 @@
 package casaRural;
 
+import java.util.Scanner;
+
 public class Principal {
+    public static Scanner t=new Scanner(System.in);
 
     public void run(){
 
@@ -8,6 +11,8 @@ public class Principal {
     }
 
     public void eliminarHabitacion(){
+        System.out.println("Que habitacion quieres eliminar: ");
+        int habitacionAEliminar=t.nextInt();
 
     }
 
