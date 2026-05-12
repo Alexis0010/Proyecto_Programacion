@@ -1,7 +1,18 @@
 package casaRural;
 
 public class Principal {
-    public static void main(String[] args) {
 
+    public void run(){
+
+        eliminarHabitacion();
+    }
+
+    public void eliminarHabitacion(){
+
+    }
+
+
+    public static void main(String[] args) {
+        new Principal().run();
     }
 }
