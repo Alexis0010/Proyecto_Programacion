@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Principal {
     public static Scanner t=new Scanner(System.in);
     Habitacion habitacion;
-
+//hola
     public void run(){
 
         eliminarHabitacion();
