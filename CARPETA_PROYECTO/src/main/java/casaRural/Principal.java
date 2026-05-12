@@ -25,7 +25,19 @@ public class Principal {
     public void crearFactura(){
         System.out.println("Creando factura....");
 
+        try {
+            FileWriter writer = new FileWriter("factura.txt");
 
+            writer.write("Factura Nº: F-001\n");
+            writer.write("Cliente: Juan Pérez\n");
+            writer.write("Fecha: 12/05/2026\n");
+            writer.write("Total: 150.75 €\n");
+
+            writer.close();
+            System.out.println("Factura creada.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 
